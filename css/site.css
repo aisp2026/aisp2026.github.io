@@ -1,0 +1,95 @@
+:root {
+  color: #1e2430;
+  background: #f7f8fa;
+  font-family: "Apple SD Gothic Neo", "Malgun Gothic", "Noto Sans KR", Arial, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background:
+    linear-gradient(180deg, rgba(255, 255, 255, 0.88), rgba(247, 248, 250, 0.96)),
+    url("../img/ieie_logo.png") center 12% / 380px auto no-repeat;
+}
+
+.page {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 48px 20px;
+}
+
+.intro {
+  width: min(760px, 100%);
+  text-align: center;
+}
+
+.intro__logo {
+  width: 228px;
+  max-width: 70%;
+  height: auto;
+  margin-bottom: 52px;
+}
+
+.intro__eyebrow {
+  margin: 0 0 18px;
+  color: #b43b2c;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+h1 {
+  margin: 0;
+  color: #121722;
+  font-size: 64px;
+  line-height: 1.05;
+  font-weight: 800;
+}
+
+.intro__subtitle {
+  margin: 28px auto 0;
+  max-width: 640px;
+  font-size: 24px;
+  line-height: 1.55;
+  font-weight: 700;
+}
+
+.intro__note {
+  margin: 18px auto 0;
+  max-width: 620px;
+  color: #566070;
+  font-size: 18px;
+  line-height: 1.7;
+}
+
+@media (max-width: 640px) {
+  .page {
+    align-items: flex-start;
+    padding-top: 72px;
+  }
+
+  .intro__logo {
+    margin-bottom: 40px;
+  }
+
+  .intro__eyebrow {
+    font-size: 16px;
+  }
+
+  h1 {
+    font-size: 44px;
+  }
+
+  .intro__subtitle {
+    font-size: 20px;
+  }
+
+  .intro__note {
+    font-size: 16px;
+  }
+}
