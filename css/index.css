@@ -24,7 +24,7 @@ body {
 	width:2.5rem;
 	height:0.15rem;
 	margin-bottom:2rem;
-	background:#ee523c;
+	background:#862633;
 }
 .horizontal__list {
 	display:grid;
@@ -274,7 +274,7 @@ body {
 				display:flex;
 				margin-top:0;
 				margin-bottom:0;
-				color:#ee523c;
+				color:#862633;
 				font-size:1.1rem;
 				font-weight:bolder;
 				width:9rem;
@@ -283,10 +283,10 @@ body {
 				margin-top:0.25rem;
 				margin-bottom:1.5rem;
 				background:none;
-				color:rgb(238,82,60);
+				color:#862633;
 				font-size:3.5rem;
 				line-height:3.5rem;
-				-webkit-text-fill-color:rgb(238,82,60);
+				-webkit-text-fill-color:#862633;
 	}
 	.hero_description {
 				margin-top:0;
