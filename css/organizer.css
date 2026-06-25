@@ -224,7 +224,7 @@ ul {
   min-height: 7rem;
   margin-right: 1rem;
   overflow: hidden;
-  background: #f4eee9;
+  background: #fff;
 }
 .committee__list {
   display: grid;
@@ -245,6 +245,19 @@ ul {
   height: 100%;
   object-fit: cover;
   object-position: center top;
+}
+.committee__img--kim-sw,
+.committee__img--kim-wj {
+  object-fit: contain;
+  object-position: center top;
+  transform: translateY(-0.2rem) scale(0.94);
+  transform-origin: center top;
+}
+.committee__img--lee-jt {
+  object-fit: contain;
+  object-position: center bottom;
+  transform: translateY(0.25rem) scale(0.96);
+  transform-origin: center bottom;
 }
 .committee__info {
   min-width: 0;
