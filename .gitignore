@@ -1,2 +1,5 @@
 .DS_Store
 Thumbs.db
+
+# Speaker forms contain private contact and payment information.
+file/*강연요약서*

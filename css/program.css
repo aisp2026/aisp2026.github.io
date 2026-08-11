@@ -270,6 +270,13 @@ body {
 	color:#5c4b50;
 	font-weight:400;
 }
+.program__talk-title {
+	display:block;
+	margin-top:0.25rem;
+	color:#862633;
+	font-size:0.9rem;
+	font-weight:500;
+}
 .program_tb .program__day {
 	height:auto;
 	padding:1rem 1.25rem;
