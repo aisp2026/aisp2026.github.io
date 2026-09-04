@@ -326,6 +326,29 @@ ul {
 	font-style:normal;
 	vertical-align:0.12rem;
 }
+.review-result {
+	display:flex;
+	align-items:center;
+	flex-wrap:wrap;
+	margin-top:0.65rem;
+	padding-top:0.55rem;
+	border-top:1px solid #e7ded8;
+	font-size:0.82rem;
+	gap:0.45rem;
+}
+.review-result__label {
+	display:inline-flex;
+	align-items:center;
+	color:#665c60;
+	font-weight:700;
+	gap:0.3rem;
+}
+.review-result__label i {
+	color:#b08d57;
+}
+.review-result > strong {
+	color:#862633;
+}
 .submission-actions__buttons {
 	display:flex;
 	align-items:center;
