@@ -463,6 +463,59 @@ body {
   font-weight: bold;
 }
 
+/* ======================================== Parking notice ========================================*/
+.parking-notice {
+	display:grid;
+	grid-template-columns:2.75rem minmax(0,1fr);
+	align-items:start;
+	gap:1rem;
+	margin:1.5rem -1rem -1rem;
+	padding:1.1rem 1.25rem;
+	border-top:1px solid rgba(134,38,51,0.22);
+	background:#f7ecee;
+	color:#3a2b2e;
+}
+.parking-notice__icon {
+	display:flex;
+	align-items:center;
+	justify-content:center;
+	width:2.75rem;
+	height:2.75rem;
+	border-radius:6px;
+	background:#862633;
+	color:#fff;
+	font-size:1.1rem;
+}
+.parking-notice__content h2 {
+	margin:0 0 0.35rem;
+	color:#862633;
+	font-size:1.05rem;
+	line-height:1.35;
+}
+.parking-notice__content p {
+	margin:0;
+	font-size:0.95rem;
+	line-height:1.7;
+}
+.parking-notice__content strong {
+	color:#6f1f2a;
+}
+@media screen and (max-width:600px) {
+	.parking-notice {
+		grid-template-columns:2.35rem minmax(0,1fr);
+		gap:0.75rem;
+		padding:1rem;
+	}
+	.parking-notice__icon {
+		width:2.35rem;
+		height:2.35rem;
+		font-size:0.95rem;
+	}
+	.parking-notice__content p {
+		font-size:0.9rem;
+	}
+}
+
 /* ======================================== Board ========================================*/
 .board__container {
 	display:flex;
