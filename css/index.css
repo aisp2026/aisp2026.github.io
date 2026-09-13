@@ -462,6 +462,17 @@ body {
   text-decoration: none;
   font-weight: bold;
 }
+.notice-download-link {
+	display:inline-flex;
+	align-items:center;
+	margin-left:0.55rem;
+	font-size:0.95rem;
+	white-space:nowrap;
+	gap:0.35rem;
+}
+.notice-link:hover {
+	text-decoration:underline;
+}
 
 /* ======================================== Parking notice ========================================*/
 .parking-notice {
