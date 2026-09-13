@@ -210,6 +210,33 @@ body {
 	height:0.15rem;
 	background:#b08d57;
 }
+.program__download {
+	display:inline-flex;
+	align-items:center;
+	justify-content:center;
+	min-height:46px;
+	margin-top:1.25rem;
+	padding:0.7rem 1.1rem;
+	border:1px solid #862633;
+	border-radius:4px;
+	background:#862633;
+	color:#fff;
+	font-size:0.95rem;
+	font-weight:900;
+	line-height:1.35;
+	text-align:center;
+	text-decoration:none;
+	transition:background-color 160ms ease,border-color 160ms ease;
+	gap:0.5rem;
+}
+.program__download:hover {
+	border-color:#641c26;
+	background:#641c26;
+}
+.program__download:focus-visible {
+	outline:3px solid #b08d57;
+	outline-offset:3px;
+}
 .logo__p {
 	margin-top:0rem;
 	margin-bottom:2rem;
@@ -321,6 +348,10 @@ body {
 	.logo__container {
 			margin-right:0.5rem;
 			margin-left:0.5rem;
+	}
+	.program__download {
+		width:min(100%,320px);
+		box-sizing:border-box;
 	}
 	.program_tb th {
 			height:60px;
